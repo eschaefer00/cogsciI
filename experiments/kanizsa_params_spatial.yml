@@ -1,0 +1,8 @@
+# These parameters are adjusted somewhat from RS
+# to make the task a bit easier and also avoid some
+# drawing problems on different displays.
+
+"support_ratio": 0.25 # ringach & shapley: 0.25
+"eccentricity_deg": 6 # ringach & shapley: 12.35
+"contrast_proportion": 0.3 # ringach & shapley: 0.3
+"center_pos": (0, 0) # Psychopy center of screen

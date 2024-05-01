@@ -1,0 +1,9 @@
+# These parameters are adjusted somewhat from RS
+# to make the task a bit easier and also avoid some
+# drawing problems on different displays.
+
+"stimulus_ms": 400 # ringach & shapley: 117
+"blank_ms": 50 # ringach & shapley: 50
+"mask_ms": 300 # ringach & shapley: 300
+"feedback_ms": 200 # ringach & shapley: NA
+"iti_ms": 200 # ringach & shapley: NA

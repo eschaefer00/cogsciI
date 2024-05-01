@@ -1,0 +1,86 @@
+\documentclass[
+    a4paper,
+    doc, %jou, %man
+    natbib
+]{apa6}
+
+\usepackage[british]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{epstopdf}
+\usepackage{csquotes}
+\usepackage[hidelinks]{hyperref}
+\usepackage{natbib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{An excellent study that you should definitely read}
+\shorttitle{Your student name and number}
+\author{Maxine Mustermann}
+\affiliation{Centre for Cognitive Science, Technical University of Darmstadt}
+
+\abstract{This is where your abstract goes.}
+
+\keywords{vision, illusory contours, psychophysics}
+
+\authornote{Submitted as assessment for the course ``Wahrnehmen'',  SoSe 2023.}
+
+\begin{document}
+
+\maketitle
+
+This is where the introduction goes. In APA style, the introduction does not have a separate heading.
+
+In APA style, you will often refer to citations in parenthesis at the end of the sentence to provide the reader some reference for the immediately preceding statement, like this \citep{ringachSpatialTemporalProperties1996}.
+
+Sometimes you may want to refer to authors' names in text.
+To do this in APA style, the authors' names should come in the body of the text, with the publication year in parentheses, as in \citet{ringachSpatialTemporalProperties1996}.
+This automatically includes the authors' names as appropriate for APA format, with the publication year in parentheses at the end.
+There are different abbreviations when you have three or more authors. 
+I strongly encourage you to use a reference manager to do this automatically, rather than formatting references yourself.
+
+\section{Methods}
+
+The methods section can have subsections or subsubsections as appropriate for the study. I have suggested some here.
+
+\subsection{Participants}
+Describe your participants, how they were recruited, demographic information.
+
+\subsection{Equipment}
+
+Describe the equipment you used to conduct the experiment, including hardware and software relevant to the presentation of stimuli and collection of data.
+You should also describe elements of the physical setup. 
+How far from the screen was the participant (how large were the stimuli on the retina)?
+Data analysis software can come under ``Data Analysis'' below.
+If each participant used different hardware to do the experiment, this should be described! 
+
+\subsection{Stimuli and procedure}
+
+Describe how the stimuli were created and their properties.
+
+Describe what the participant(s) did in the experiment (their task).
+
+Describe what one trial was like.
+
+Describe how many trials were performed, how they were blocked or randomly arranged, etc.
+
+\subsection{Data analysis}
+
+Describe how you analysed the data. What software (versions?) was used? 
+What functions / equations did you implement?
+Describe the equations and related aspects in sufficient detail that someone familiar with the field understands what you've done.
+
+You should not include actual code here. 
+
+
+\section{Results}
+
+Describe the results of Experiment 1. Refer to data figures, but provide more narrative in text. Try to keep interpretation ("what it means") to a minimum -- that goes in the discussion.
+
+\section{Discussion}
+
+Your discussion section goes here.
+
+\bibliography{bibliography.bib}
+
+\end{document}
